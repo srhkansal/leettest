@@ -17,7 +17,11 @@ public class Factorial {
             return 1;
         else if(memo[n]!=0)
             return memo[n];
-        else
-            return n*fact(n-1, memo);
+        else {
+            int factorial =  n*fact(n-1, memo);
+            memo[n] =factorial;
+            return factorial;
+        }
+
     }
 }
