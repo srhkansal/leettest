@@ -2,7 +2,7 @@ package com.sorting;
 
 public class MergeSort {
     public static void main(String []args){
-        int []arr = {3,5,13,22,11,77};
+        int []arr = {33, 3,5,13,22,11,77};
         mergeSort(arr, new int[arr.length], 0, arr.length-1);
 
         System.out.print("Sorted : ");
