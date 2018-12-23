@@ -5,6 +5,7 @@ public class MergeSort {
         int []arr = {33, 3,5,13,22,11,77};
         mergeSort(arr, new int[arr.length], 0, arr.length-1);
 
+
         System.out.print("Sorted : ");
         for(int i=0; i<arr.length; i++) {
             System.out.print(arr[i] +" , ");
